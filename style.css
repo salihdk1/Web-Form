@@ -1,0 +1,78 @@
+* {
+  margin: 0
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 130vh;
+  background-color: #5cb6f3;
+}
+
+.container h1 {
+  color: white;
+  font-family: sans-serif;
+  margin: 20px;
+}
+
+.register-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-family: sans-serif;
+  background-color: #154a68;
+  padding: 20px;
+}
+
+.register-form input,
+.register-form select,
+.register-form textarea {
+  border: none;
+  padding: 5px;
+  margin-top: 10px;
+  font-family: sans-serif;
+}
+
+.register-form input:focus,
+.register-form textarea:focus {
+  box-shadow: 3px 3px 10px rgb(228, 228, 228), -3px -3px 10px rgb(224, 224, 224);
+}
+
+.RegisterButton{
+  background-color: #0bc011;
+  font-size: 20px;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  border-radius: 5px;
+}
+
+.RegisterButton:hover {
+  box-shadow: 3px 3px 6px rgb(37, 21, 6);
+}
+
+.clear{
+  background-color: #0bc011;
+  font-size: 20px;
+  color: white;
+  padding: 8px 12px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  border-radius: 5px;
+}
+
+.clear:hover {
+  box-shadow: 3px 3px 6px rgb(37, 21, 6);
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="yandex-verification" content="ee6296887eec90f9" />
+<meta name="msvalidate.01" content="183226F99B2F8AD41BD666B2590F7706" />
+<meta name="ahrefs-site-verification" content="0d32781a521ef6a9876f34b35cd383ec84b40500962f665ff4e22edbad0a0e2e">            
+
+<meta name="theme-color" content="#df3c44">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <title>HTML Forms</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Fill out the form completely!</h1>
+        <hr>
+        <form class="register">
+            
+            <label for="username">Username  : </label>
+            <input type = "text" id="username" name = "username" placeholder="Enter Your Usurname" size="32px" required>
+            
+            <br><br>
+            <label for="password">Password : </label>
+            <input type = "password" id="password" name = "password" placeholder="Password" size="33px" required>
+            
+            <br><br>
+            <label for="email">Email : </label>
+            <input type="email" id="email" name="email" placeholder="Enter Your Email" size="38px" required>
+            
+            <br><br>
+            <label for="birthday">Birthday : </label>
+            <input id="birthday" name="birthday" type="date" required>
+            
+            <br>
+            <label for="gender">Gender : </label>
+            <br>
+            Male: <input type="radio" name="gender" value="male">
+            Female: <input type="radio" name="gender" value="female">
+            Other: <input type="radio" name="gender" value="other">
+            
+            <br><br>
+            <label for="city">City : </label> 
+            <select name="city" id="city">
+                <optgroup label="Ege">
+                    <option value="izmir">İzmir</option>
+                </optgroup>
+                <optgroup label="Marmara">
+                    <option value="istanbul">İstanbul</option>
+                </optgroup>
+            </select>
+            <br><br>
+
+            <label>Add your file</label>
+            <input type="file"/>
+            <br><br>
+
+            <label>Give us some brief:</label><br>
+            <TEXTAREA name="comments" cols="50" rows="5" placeholder="Tell us about yourself..."></TEXTAREA>
+            <br><br>
+
+            <input type="checkbox" id="check" name="check"required>
+            <label for="check">Access</label>
+            <br><br>
+
+            <button type="submit" class="RegisterButton">Submit</button>
+            <button type="reset" class="clear">Clear</button>
+        </form>
+    </div>
+</body>
+</html>
